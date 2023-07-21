@@ -1,0 +1,133 @@
+.header {
+  overflow: hidden;
+  background-color: #80d2c1de;
+  padding: 5px 5px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgba(130, 130, 130, 0.763);
+    .logo{
+      max-height: 75px;
+      max-width: 75px;  
+    }
+}
+
+a:hover img {   
+  transform: scale(1.1); 
+}
+
+//!!!!!!!!!!!!!!!!!!!!!!!!!!
+input {
+  border-radius: 5px;
+  width: 300px;
+  height: 20px;
+  border: none;
+}
+//!!!!!!!!!!!!!!!!!!!!!!!!!!
+.store{
+  display: flex;
+  flex-direction: column;
+  padding: 5px 25px;
+  margin: 0;
+}
+
+.search{
+  padding: 5px 50px;
+  display: flex;
+  align-items: center;
+}
+
+.search:hover{
+   transform: scale(1.05); 
+}
+
+.user{
+  padding: 5px 5px 0 0;
+  max-height: 50px;
+  max-width: 50px;
+}
+
+.busket{
+  padding: 5px 5px 0 0;
+  max-height: 40px;
+  max-width: 40px;
+}
+
+.header2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.products{
+  display: flex;
+  padding: 40px;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: auto; 
+}
+
+.priceHome{
+  display: flex;
+  flex-direction: column;
+}
+
+.uil-heart-alt{
+ font-size: x-large;
+ cursor: pointer;
+ display: flex;
+ color: black;
+//  justify-content: end;
+}
+
+.active{
+  color: red;
+}
+
+.modalWraper{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.395);
+  z-index: 200;
+}
+
+.modalContainer{
+  // height: 50%;
+  max-width: 600px;
+  background-color: rgb(255, 255, 255);
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.uil-times-square{
+  font-size: xx-large;
+  cursor: pointer;
+  color: black;
+  float: right;
+}
+
+.addProduct{
+  background-color: rgba(15, 135, 35, 0.961);
+  border-radius: 5px;
+  margin: 10px;
+  border: none;
+  color:rgb(255, 255, 255)
+}
+
+.errorMessage{
+  color: red;
+}
+
+.headerModal{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ gap: 10px;
+}

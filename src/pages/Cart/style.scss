@@ -1,0 +1,110 @@
+.box{
+  margin: 10px;
+  padding: 10px 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  border-radius: 30px;
+  justify-content: space-around;
+
+}
+
+.curtProducts{
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  width:  300px;
+}
+
+.price{
+  width: 30px;
+}
+
+img{
+  max-height: 90px;
+  max-width: 90px;
+}
+
+.min{
+border-radius: 12px;
+height: 30px;
+width: 50px;
+border-color: rgba(0, 0, 0, 0.218);
+color:  rgba(0, 0, 0, 0.218);
+margin-left: 150px;
+}
+
+.max{
+  border-radius: 12px;
+height: 30px;
+width: 50px;
+border-color: rgba(255, 0, 0, 0.368);
+color:  rgba(255, 0, 0, 0.368);
+
+}
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+button:active{
+  transform: scale(1.1);
+  outline: none;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.х{
+  border-radius: 12px;
+height: 30px;
+width: 50px;
+color:  rgba(0, 0, 0, 0.218);
+border-color: rgba(0, 0, 0, 0.218);
+}
+
+.box1{
+  display: flex;
+  justify-content:space-between;
+  padding: 10px;
+}
+
+.box2{
+  display: flex;
+  justify-content:space-between;
+  padding: 10px;
+}
+
+.back{
+  border-radius: 12px;
+height: 30px;
+border-color: rgba(0, 0, 0, 0.218);
+color:  rgba(0, 0, 0, 0.218);
+}
+
+.buy{
+  border-radius: 12px;
+height: 30px;
+border-color: rgba(255, 0, 0, 0.368);
+color: rgba(255, 0, 0, 0.368);
+background-color: rgba(255, 0, 0, 0.241);
+
+}
+.price{
+  text-decoration: line-through;
+}
+
+.priceDiscount{
+  color: red;
+}
+
+.boxEmptyCurt{
+  padding: 100px;
+  flex-direction: column;
+}
+.nullCurt{
+ max-height: 300px;
+ max-width: 300px;
+ align-items: center;
+ justify-content: center;
+}
